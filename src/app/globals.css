@@ -27,3 +27,11 @@ body {
   color: var(--foreground);
   font-family: var(--font-ascii), ui-monospace, monospace;
 }
+
+@utility scrollbar-hide {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
