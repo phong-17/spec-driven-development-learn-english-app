@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://learn-english.local/schemas/topic-vocab-entry.schema.json",
+  "title": "TopicVocabEntry collection",
+  "description": "Schema for src/data/vocabulary/1000-topic-words.json. Top-level array of 900–1050 TopicVocabEntry objects extracted from `1000 từ vựng tiếng Anh theo chủ đề.pdf`.",
+  "type": "array",
+  "minItems": 900,
+  "maxItems": 1050,
+  "uniqueItems": false,
+  "items": {
+    "type": "object",
+    "title": "TopicVocabEntry",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "stt",
+      "word",
+      "partOfSpeech",
+      "phonetic",
+      "meaning",
+      "category",
+      "session"
+    ],
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Sequential 1-based identifier reflecting PDF order; no gaps."
+      },
+      "stt": {
+        "type": ["integer", "null"],
+        "minimum": 1,
+        "description": "Per-book sequence number printed in the PDF's STT column. May skip values. null only if the source row lacked a number."
+      },
+      "word": {
+        "type": "string",
+        "minLength": 1,
+        "description": "English headword from the PDF (trimmed)."
+      },
+      "partOfSpeech": {
+        "type": ["string", "null"],
+        "minLength": 1,
+        "description": "Lowercased part-of-speech tag (e.g. 'n', 'v', 'adj'); null if absent."
+      },
+      "phonetic": {
+        "type": ["string", "null"],
+        "minLength": 1,
+        "description": "IPA phonetic transcription; null if absent."
+      },
+      "meaning": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Vietnamese gloss (trimmed, non-empty)."
+      },
+      "category": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Topic heading from the PDF, stored exactly as it appears. Defaults to 'Uncategorized' when no heading has been seen yet."
+      },
+      "session": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 32,
+        "description": "Study session 1-32 assigned by sequential block distribution in PDF order."
+      }
+    }
+  }
+}
