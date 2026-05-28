@@ -28,7 +28,7 @@ export function NavigationMenu({ links }: NavigationMenuProps) {
       className="
         relative w-full border-b border-dashed border-foreground/30
         lg:w-56 lg:shrink-0 lg:border-b-0 lg:border-r lg:border-dashed
-        lg:sticky lg:top-0 lg:flex lg:h-screen lg:flex-col lg:items-start
+        lg:sticky lg:top-0 lg:flex lg:h-auto lg:flex-col lg:items-start
         lg:gap-3 lg:overflow-y-auto lg:px-5 lg:py-8
       "
     >
