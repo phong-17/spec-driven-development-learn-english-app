@@ -4,6 +4,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 @AGENTS.md
 
+## Project overview
+
+A personal English learning app built for self-study. No authentication, no multi-user support.
+
+**Data sources** (PDF files already in the project):
+
+- `500 Từ phổ biến nhất trong Tiếng Anh_Mingology.pdf` — 500 most common English words
+- `1000 từ vựng tiếng Anh theo chủ đề.pdf` — 1000 topic-based vocabulary words
+- `Sach_Tieng_Anh_Ms_Huong_Thiet_Ke.pdf` — 16-lesson structured English course by Ms. Huong
+
+**No database** — all PDF content is extracted and stored as JSON files inside the project.
+
+**Learning structure**: 32 sessions total
+
+- Ms. Huong's book: 16 lessons → 32 sessions (½ lesson per session)
+- The 2 vocabulary PDFs: words divided evenly across 32 sessions
+
+**Current focus**: structuring and distributing content across 32 sessions. Features like flashcards, quizzes, and exercises are planned for later as separate features — do not implement them now.
+
 ## Commands
 
 ```bash
@@ -37,6 +56,7 @@ src/
 ```
 
 **Rules:**
+
 - Route files in `app/` import from `features/` or `components/`, never contain domain logic directly.
 - A `features/<name>/` module may have its own sub-`components/` and `hooks/` folders for things not shared elsewhere.
 - `components/` contains only presentational, reusable UI — no data fetching, no business logic.
@@ -88,3 +108,38 @@ This project uses **[Motion](https://motion.dev)** (`motion` v12) for all UI ani
 ## Tailwind v4 notes
 
 `globals.css` uses `@import "tailwindcss"` and `@theme inline { … }` blocks — not the v3 `@tailwind` directives. Theme tokens are CSS custom properties under `--color-*`, `--font-*`, etc.
+
+## Speckit Workflow
+
+When any `/speckit-*` command is run for a feature, you MUST do the following **in addition** to what speckit normally does:
+
+### 1. Create or update `STEP-SPECKIT-{feature}.md`
+
+- File location: root of the project (e.g. `STEP-SPECKIT-dashboard.md`)
+- Derive `{feature}` from the feature name/slug in the command (e.g. "tạo màn dashboard" → `dashboard`)
+- If the file does not exist, create it with a header:
+  ```
+  # Speckit Steps — {feature}
+  ```
+- Append a new step entry each time a speckit command is run:
+  ```
+  ## STEP {n}: /{command} {args}
+  ```
+  Where `{n}` is the next sequential step number.
+
+**Example** — running `/speckit-specify tạo màn dashboard`:
+
+```md
+# Speckit Steps — dashboard
+
+## STEP 1: /speckit-specify tạo màn dashboard
+```
+
+### 2. Update the `<!-- SPECKIT START -->` block in `CLAUDE.md`
+
+Replace the content inside the block with a reference to the current feature's plan:
+
+<!-- SPECKIT START -->
+For additional context about the current feature under development, read the implementation plan at:
+`specs/001-parse-vocab-pdf/plan.md`
+<!-- SPECKIT END -->
