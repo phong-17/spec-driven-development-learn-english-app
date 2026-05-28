@@ -141,5 +141,5 @@ Replace the content inside the block with a reference to the current feature's p
 
 <!-- SPECKIT START -->
 For additional context about the current feature under development, read the implementation plan at:
-`specs/001-parse-vocab-pdf/plan.md`
+`specs/002-parse-topic-vocab-pdf/plan.md`
 <!-- SPECKIT END -->
