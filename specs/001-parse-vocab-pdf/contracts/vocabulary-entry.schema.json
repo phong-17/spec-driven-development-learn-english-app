@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://learn-english.local/schemas/vocabulary-entry.schema.json",
+  "title": "VocabularyEntry collection",
+  "description": "Schema for src/data/vocabulary/500-common-words.json. Top-level array of 450–500 VocabularyEntry objects extracted from `500 Từ phổ biến nhất trong Tiếng Anh_Mingology.pdf` (the source PDF actually contains 455 entries; its title overstates the count).",
+  "type": "array",
+  "minItems": 450,
+  "maxItems": 500,
+  "uniqueItems": false,
+  "items": {
+    "type": "object",
+    "title": "VocabularyEntry",
+    "additionalProperties": false,
+    "required": ["id", "word", "meaning", "partOfSpeech", "example", "session"],
+    "properties": {
+      "id": {
+        "type": "integer",
+        "minimum": 1,
+        "description": "Sequential 1-based identifier reflecting PDF order."
+      },
+      "word": {
+        "type": "string",
+        "minLength": 1,
+        "description": "English headword as extracted from the PDF (trimmed)."
+      },
+      "meaning": {
+        "type": ["string", "null"],
+        "minLength": 1,
+        "description": "Vietnamese gloss; null only when the PDF row lacks a meaning."
+      },
+      "partOfSpeech": {
+        "type": ["string", "null"],
+        "minLength": 1,
+        "description": "Lowercased part-of-speech tag (e.g. 'n', 'v', 'adj', 'adv'); null if absent."
+      },
+      "example": {
+        "type": ["string", "null"],
+        "minLength": 1,
+        "description": "Example sentence in English if present in the PDF; otherwise null."
+      },
+      "session": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 32,
+        "description": "Study session 1–32 assigned by sequential block distribution in PDF order."
+      }
+    }
+  }
+}
