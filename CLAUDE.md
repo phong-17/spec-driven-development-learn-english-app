@@ -107,6 +107,6 @@ After every `/speckit-*` command:
 <!-- SPECKIT START -->
 
 For additional context about the current feature under development, read the implementation plan at:
-`specs/003-home-page/plan.md`
+`specs/004-vocab-500-sessions/plan.md`
 
 <!-- SPECKIT END -->
