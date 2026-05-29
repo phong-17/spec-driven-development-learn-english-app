@@ -1,0 +1,274 @@
+{
+  "courseParts": [
+    { "part": 1, "vi": "Học tổng quát 43 âm", "en": "General overview of 43 sounds" },
+    { "part": 2, "vi": "Luyện từ", "en": "Word practice" },
+    { "part": 3, "vi": "Luyện câu", "en": "Sentence practice" },
+    { "part": 4, "vi": "Luyện bài", "en": "Text / passage practice" },
+    { "part": 5, "vi": "Phụ lục 500 Vocabulary (Tự học thêm)", "en": "Appendix: 500 vocabulary (self-study)" }
+  ],
+  "soundCharts": [
+    {
+      "id": "alphabet",
+      "titleEn": "Alphabet",
+      "titleVi": "Bảng chữ cái",
+      "sounds": [
+        { "symbol": "A", "phonetic": "/eɪ/", "word": "A" },
+        { "symbol": "B", "phonetic": "/biː/", "word": "B" },
+        { "symbol": "C", "phonetic": "/siː/", "word": "C" },
+        { "symbol": "D", "phonetic": "/diː/", "word": "D" },
+        { "symbol": "E", "phonetic": "/iː/", "word": "E" },
+        { "symbol": "F", "phonetic": "/ef/", "word": "F" },
+        { "symbol": "G", "phonetic": "/dʒiː/", "word": "G" },
+        { "symbol": "H", "phonetic": "/eɪtʃ/", "word": "H" },
+        { "symbol": "I", "phonetic": "/aɪ/", "word": "I" },
+        { "symbol": "J", "phonetic": "/dʒeɪ/", "word": "J" },
+        { "symbol": "K", "phonetic": "/keɪ/", "word": "K" },
+        { "symbol": "L", "phonetic": "/el/", "word": "L" },
+        { "symbol": "M", "phonetic": "/em/", "word": "M" },
+        { "symbol": "N", "phonetic": "/en/", "word": "N" },
+        { "symbol": "O", "phonetic": "/əʊ/", "word": "O" },
+        { "symbol": "P", "phonetic": "/piː/", "word": "P" },
+        { "symbol": "Q", "phonetic": "/kjuː/", "word": "Q" },
+        { "symbol": "R", "phonetic": "/ɑːr/", "word": "R" },
+        { "symbol": "S", "phonetic": "/es/", "word": "S" },
+        { "symbol": "T", "phonetic": "/tiː/", "word": "T" },
+        { "symbol": "U", "phonetic": "/juː/", "word": "U" },
+        { "symbol": "V", "phonetic": "/viː/", "word": "V" },
+        { "symbol": "W", "phonetic": "/ˈdʌbljuː/", "word": "W" },
+        { "symbol": "X", "phonetic": "/eks/", "word": "X" },
+        { "symbol": "Y", "phonetic": "/waɪ/", "word": "Y" },
+        { "symbol": "Z", "phonetic": "/zed/", "word": "Z" }
+      ]
+    },
+    {
+      "id": "consonants",
+      "titleEn": "Consonant Sounds",
+      "titleVi": "Phụ âm",
+      "sounds": [
+        { "symbol": "/p/", "word": "pop" },
+        { "symbol": "/b/", "word": "bus" },
+        { "symbol": "/t/", "word": "two" },
+        { "symbol": "/d/", "word": "dog" },
+        { "symbol": "/tʃ/", "word": "church" },
+        { "symbol": "/dʒ/", "word": "jam" },
+        { "symbol": "/k/", "word": "cake" },
+        { "symbol": "/g/", "word": "good" },
+        { "symbol": "/f/", "word": "fan" },
+        { "symbol": "/v/", "word": "very" },
+        { "symbol": "/θ/", "word": "three" },
+        { "symbol": "/ð/", "word": "the" },
+        { "symbol": "/s/", "word": "six" },
+        { "symbol": "/z/", "word": "zoo" },
+        { "symbol": "/ʃ/", "word": "shoe" },
+        { "symbol": "/ʒ/", "word": "pleasure" },
+        { "symbol": "/m/", "word": "man" },
+        { "symbol": "/n/", "word": "nine" },
+        { "symbol": "/ŋ/", "word": "ring" },
+        { "symbol": "/h/", "word": "happy" },
+        { "symbol": "/l/", "word": "like" },
+        { "symbol": "/r/", "word": "red" },
+        { "symbol": "/w/", "word": "wind" },
+        { "symbol": "/j/", "word": "yes" }
+      ]
+    },
+    {
+      "id": "monophthongs",
+      "titleEn": "Monophthong Vowel Sounds",
+      "titleVi": "Nguyên âm đơn",
+      "sounds": [
+        { "symbol": "/iː/", "word": "Tree" },
+        { "symbol": "/ɪ/", "word": "Fish" },
+        { "symbol": "/ʊ/", "word": "Bull" },
+        { "symbol": "/uː/", "word": "boot" },
+        { "symbol": "/e/", "word": "Egg" },
+        { "symbol": "/ə/", "word": "Computer" },
+        { "symbol": "/ɜː/", "word": "Bird" },
+        { "symbol": "/ɔː/", "word": "Horse" },
+        { "symbol": "/æ/", "word": "Cat" },
+        { "symbol": "/ʌ/", "word": "up" },
+        { "symbol": "/ɑː/", "word": "Car" }
+      ]
+    },
+    {
+      "id": "diphthongs",
+      "titleEn": "Diphthong Vowel Sounds",
+      "titleVi": "Nguyên âm đôi",
+      "sounds": [
+        { "symbol": "/ɪə/", "word": "Ear" },
+        { "symbol": "/eɪ/", "word": "Train" },
+        { "symbol": "/ʊə/", "word": "Tourist" },
+        { "symbol": "/ɔɪ/", "word": "Boy" },
+        { "symbol": "/əʊ/", "word": "Phone" },
+        { "symbol": "/eə/", "word": "Chair" },
+        { "symbol": "/aɪ/", "word": "Bike" },
+        { "symbol": "/aʊ/", "word": "Owl" }
+      ]
+    }
+  ],
+  "lessons": [
+    { "lesson": 1, "title": "Alphabets", "soundFocus": "Alphabet letters", "part": 1, "pageRange": "27-28", "sessions": [1, 2],
+      "images": [ { "src": "/lessons/page-28-1.png", "width": 526, "height": 477, "alt": "Lesson 1 — Alphabet A–Z with IPA" } ] },
+    { "lesson": 2, "title": "Review Consonant Sounds", "soundFocus": "All consonant sounds", "part": 1, "pageRange": "29-30", "sessions": [3, 4],
+      "images": [ { "src": "/lessons/page-30-1.png", "width": 713, "height": 355, "alt": "Lesson 2 — Consonant sounds chart" } ] },
+    { "lesson": 3, "title": "Review Vowel Sounds", "soundFocus": "All vowel sounds", "part": 1, "pageRange": "31-32", "sessions": [5, 6],
+      "images": [ { "src": "/lessons/page-32-1.png", "width": 660, "height": 629, "alt": "Lesson 3 — Monophthong & diphthong vowel sounds chart" } ] },
+    { "lesson": 4, "title": "/__r/ Sounds", "soundFocus": "R-colored vowels", "part": 1, "pageRange": "33-35", "sessions": [7, 8],
+      "images": [
+        { "src": "/lessons/page-34-1.png", "width": 705, "height": 648, "alt": "Lesson 4 — /ɑːr/, /ɪr/, /er/ practice words" },
+        { "src": "/lessons/page-35-1.png", "width": 695, "height": 707, "alt": "Lesson 4 — /ɜːr/, /ər/, /ɔːr/, /ʊr/ practice words" }
+      ] },
+    { "lesson": 5, "title": "/w/ and /r/ Sounds", "soundFocus": "/w/ vs /r/", "part": 1, "pageRange": "36-37", "sessions": [9, 10],
+      "images": [ { "src": "/lessons/page-37-1.png", "width": 744, "height": 729, "alt": "Lesson 5 — /w/ vs /r/ minimal-pair words" } ] },
+    { "lesson": 6, "title": "/l/, /w/ and /r/ Sounds", "soundFocus": "/l/, /w/, /r/", "part": 1, "pageRange": "38-40", "sessions": [11, 12],
+      "images": [
+        { "src": "/lessons/page-39-1.png", "width": 517, "height": 677, "alt": "Lesson 6 — /l/, /w/, /r/ practice words (1)" },
+        { "src": "/lessons/page-40-1.png", "width": 1002, "height": 677, "alt": "Lesson 6 — /l/, /w/, /r/ practice words (2)" }
+      ] },
+    { "lesson": 7, "title": "/l/, /f/ and /v/ Sounds", "soundFocus": "/l/, /f/, /v/", "part": 1, "pageRange": "41-42", "sessions": [13, 14],
+      "images": [
+        { "src": "/lessons/page-42-1.png", "width": 903, "height": 617, "alt": "Lesson 7 — /l/, /f/, /v/ practice words (1)" },
+        { "src": "/lessons/page-42-2.png", "width": 966, "height": 608, "alt": "Lesson 7 — /l/, /f/, /v/ practice words (2)" }
+      ] },
+    { "lesson": 8, "title": "/s/, /z/ and /ʃ/ Sounds", "soundFocus": "/s/, /z/, /ʃ/", "part": 1, "pageRange": "43-45", "sessions": [15, 16],
+      "images": [
+        { "src": "/lessons/page-44-1.png", "width": 893, "height": 605, "alt": "Lesson 8 — /s/, /z/, /ʃ/ practice words (1)" },
+        { "src": "/lessons/page-45-1.png", "width": 896, "height": 604, "alt": "Lesson 8 — /s/, /z/, /ʃ/ practice words (2)" }
+      ] },
+    { "lesson": 9, "title": "/ʃ/ and /ʒ/ Sounds", "soundFocus": "/ʃ/ vs /ʒ/", "part": 1, "pageRange": "46-47", "sessions": [17, 18],
+      "images": [ { "src": "/lessons/page-47-1.png", "width": 951, "height": 604, "alt": "Lesson 9 — /ʃ/ vs /ʒ/ practice words" } ] },
+    { "lesson": 10, "title": "/m/, /n/ and /ŋ/ Sounds", "soundFocus": "/m/, /n/, /ŋ/", "part": 1, "pageRange": "48-50", "sessions": [19, 20],
+      "images": [
+        { "src": "/lessons/page-49-1.png", "width": 946, "height": 610, "alt": "Lesson 10 — /m/, /n/, /ŋ/ practice words (1)" },
+        { "src": "/lessons/page-50-1.png", "width": 998, "height": 447, "alt": "Lesson 10 — /m/, /n/, /ŋ/ practice words (2)" },
+        { "src": "/lessons/page-50-2.png", "width": 943, "height": 311, "alt": "Lesson 10 — /m/, /n/, /ŋ/ practice words (3)" }
+      ] },
+    { "lesson": 11, "title": "/p/ and /b/ Sounds", "soundFocus": "/p/ vs /b/", "part": 1, "pageRange": "51-52", "sessions": [21, 22],
+      "images": [ { "src": "/lessons/page-52-1.png", "width": 952, "height": 667, "alt": "Lesson 11 — /p/ vs /b/ practice words" } ] },
+    { "lesson": 12, "title": "/t/ and /d/ Sounds", "soundFocus": "/t/ vs /d/", "part": 1, "pageRange": "53-54", "sessions": [23, 24],
+      "images": [ { "src": "/lessons/page-54-1.png", "width": 953, "height": 673, "alt": "Lesson 12 — /t/ vs /d/ practice words" } ] },
+    { "lesson": 13, "title": "/k/ and /g/ Sounds", "soundFocus": "/k/ vs /g/", "part": 1, "pageRange": "55-56", "sessions": [25, 26],
+      "images": [ { "src": "/lessons/page-56-1.png", "width": 945, "height": 447, "alt": "Lesson 13 — /k/ vs /g/ practice words" } ] },
+    { "lesson": 14, "title": "/θ/ and /ð/ Sounds", "soundFocus": "/θ/ vs /ð/", "part": 1, "pageRange": "57-58", "sessions": [27, 28],
+      "images": [ { "src": "/lessons/page-58-1.png", "width": 994, "height": 660, "alt": "Lesson 14 — /θ/ vs /ð/ practice words" } ] },
+    { "lesson": 15, "title": "/h/ and /j/ Sounds", "soundFocus": "/h/ vs /j/", "part": 1, "pageRange": "59-60", "sessions": [29, 30],
+      "images": [
+        { "src": "/lessons/page-60-1.png", "width": 947, "height": 518, "alt": "Lesson 15 — /h/ vs /j/ practice words (1)" },
+        { "src": "/lessons/page-60-2.png", "width": 948, "height": 299, "alt": "Lesson 15 — /h/ vs /j/ practice words (2)" }
+      ] },
+    { "lesson": 16, "title": "/tʃ/ and /dʒ/ Sounds", "soundFocus": "/tʃ/ vs /dʒ/", "part": 1, "pageRange": "61-64", "sessions": [31, 32],
+      "images": [
+        { "src": "/lessons/page-62-1.png", "width": 1021, "height": 666, "alt": "Lesson 16 — /tʃ/ vs /dʒ/ practice words (1)" },
+        { "src": "/lessons/page-63-1.png", "width": 769, "height": 709, "alt": "Lesson 16 — /tʃ/ vs /dʒ/ practice words (2)" },
+        { "src": "/lessons/page-64-1.png", "width": 550, "height": 647, "alt": "Lesson 16 — /tʃ/ vs /dʒ/ practice words (3)" }
+      ] }
+  ],
+  "referenceCharts": [
+    { "src": "/lessons/page-11-1.png", "width": 536, "height": 533, "alt": "Letters vs Sounds — số âm khác số chữ (tr.11)" },
+    { "src": "/lessons/page-12-1.png", "width": 741, "height": 578, "alt": "26 chữ cái → hơn 40 âm (tr.12)" },
+    { "src": "/lessons/page-13-1.png", "width": 549, "height": 601, "alt": "IPA · phonetic · phonetics — định nghĩa (tr.13)" },
+    { "src": "/lessons/page-14-1.png", "width": 595, "height": 542, "alt": "Consonant · Vowel — định nghĩa (tr.14)" },
+    { "src": "/lessons/page-15-1.png", "width": 713, "height": 355, "alt": "Bảng phiên âm quốc tế (tr.15)" },
+    { "src": "/lessons/page-15-2.png", "width": 722, "height": 368, "alt": "Bảng phiên âm quốc tế (tr.15)" },
+    { "src": "/lessons/page-16-1.png", "width": 650, "height": 327, "alt": "Bảng phiên âm quốc tế (tr.16)" },
+    { "src": "/lessons/page-18-1.png", "width": 531, "height": 295, "alt": "Bảng phụ âm tổng quát (tr.18)" },
+    { "src": "/lessons/page-20-1.png", "width": 722, "height": 368, "alt": "Bảng nguyên âm đơn tổng quát (tr.20)" },
+    { "src": "/lessons/page-21-1.png", "width": 757, "height": 573, "alt": "Bảng nguyên âm đơn tổng quát (tr.21)" },
+    { "src": "/lessons/page-21-2.png", "width": 757, "height": 257, "alt": "Bảng nguyên âm đơn tổng quát (tr.21)" },
+    { "src": "/lessons/page-22-1.png", "width": 821, "height": 440, "alt": "Bảng nguyên âm đơn tổng quát (tr.22)" },
+    { "src": "/lessons/page-24-1.png", "width": 650, "height": 327, "alt": "Bảng nguyên âm đôi tổng quát (tr.24)" },
+    { "src": "/lessons/page-25-1.png", "width": 939, "height": 200, "alt": "Bảng nguyên âm đôi tổng quát (tr.25)" },
+    { "src": "/lessons/page-25-2.png", "width": 942, "height": 170, "alt": "Bảng nguyên âm đôi tổng quát (tr.25)" },
+    { "src": "/lessons/page-25-3.png", "width": 939, "height": 227, "alt": "Bảng nguyên âm đôi tổng quát (tr.25)" },
+    { "src": "/lessons/page-25-4.png", "width": 945, "height": 230, "alt": "Bảng nguyên âm đôi tổng quát (tr.25)" },
+    { "src": "/lessons/page-26-1.png", "width": 656, "height": 716, "alt": "Bảng nguyên âm đôi tổng quát (tr.26)" }
+  ],
+  "challenges": [
+    {
+      "challenge": 1,
+      "titleVi": "Đọc số",
+      "titleEn": "Read the numbers",
+      "words": [
+        { "ordinal": 1, "word": "One", "phonetic": "/wʌn/" },
+        { "ordinal": 2, "word": "Two", "phonetic": "/tuː/" },
+        { "ordinal": 3, "word": "Three", "phonetic": "/θriː/" },
+        { "ordinal": 4, "word": "Four", "phonetic": "/fɔːr/" },
+        { "ordinal": 5, "word": "Five", "phonetic": "/faɪv/" },
+        { "ordinal": 6, "word": "Six", "phonetic": "/sɪks/" },
+        { "ordinal": 7, "word": "Seven", "phonetic": "/ˈsevn/" },
+        { "ordinal": 8, "word": "Eight", "phonetic": "/eɪt/" },
+        { "ordinal": 9, "word": "Nine", "phonetic": "/naɪn/" },
+        { "ordinal": 10, "word": "Ten", "phonetic": "/ten/" }
+      ]
+    },
+    {
+      "challenge": 2,
+      "titleVi": "Đọc từ khá giống nhau",
+      "titleEn": "Read similar-looking words",
+      "words": [
+        { "ordinal": 1, "word": "Like", "phonetic": "/laɪk/" },
+        { "ordinal": 2, "word": "Life", "phonetic": "/laɪf/" },
+        { "ordinal": 3, "word": "Line", "phonetic": "/laɪn/" },
+        { "ordinal": 4, "word": "Lime", "phonetic": "/laɪm/" },
+        { "ordinal": 5, "word": "Lie", "phonetic": "/laɪ/" },
+        { "ordinal": 6, "word": "Light", "phonetic": "/laɪt/" },
+        { "ordinal": 7, "word": "Liar", "phonetic": "/ˈlaɪər/" },
+        { "ordinal": 8, "word": "Lice", "phonetic": "/laɪs/" }
+      ]
+    },
+    {
+      "challenge": 3,
+      "titleVi": "Đọc từ phổ biến",
+      "titleEn": "Read common words",
+      "words": [
+        { "ordinal": 1, "word": "Exit", "phonetic": "/ˈɛksɪt/" },
+        { "ordinal": 2, "word": "Post", "phonetic": "/poʊst/" },
+        { "ordinal": 3, "word": "Upload", "phonetic": "/ˈʌp.loʊd/" },
+        { "ordinal": 4, "word": "Pizza", "phonetic": "/ˈpiːt.sə/" },
+        { "ordinal": 5, "word": "Acoustics", "phonetic": "/əˈkuː.stɪks/" },
+        { "ordinal": 6, "word": "Karate", "phonetic": "/kəˈrɑː.ti/" },
+        { "ordinal": 7, "word": "Image", "phonetic": "/ˈɪ.mɪdʒ/" },
+        { "ordinal": 8, "word": "Vegetable", "phonetic": "/ˈvedʒ.tə.bəl/" },
+        { "ordinal": 9, "word": "Voucher", "phonetic": "/ˈvaʊ.tʃɚ/" },
+        { "ordinal": 10, "word": "Feeling", "phonetic": "/ˈfiː.lɪŋ/" },
+        { "ordinal": 11, "word": "Vision", "phonetic": "/ˈvɪʒ.ən/" },
+        { "ordinal": 12, "word": "Laugh", "phonetic": "/læf/" },
+        { "ordinal": 13, "word": "Suggest", "phonetic": "/səɡˈdʒest/" },
+        { "ordinal": 14, "word": "Chef", "phonetic": "/ʃef/" },
+        { "ordinal": 15, "word": "Heart", "phonetic": "/hɑːrt/" },
+        { "ordinal": 16, "word": "Time", "phonetic": "/taɪm/" },
+        { "ordinal": 17, "word": "Audition", "phonetic": "/ɑːˈdɪʃ.ən/" },
+        { "ordinal": 18, "word": "Pause", "phonetic": "/pɑːz/" },
+        { "ordinal": 19, "word": "Nothing", "phonetic": "/ˈnʌθ.ɪŋ/" },
+        { "ordinal": 20, "word": "Question", "phonetic": "/ˈkwes.tʃən/" },
+        { "ordinal": 21, "word": "Fish", "phonetic": "/fɪʃ/" },
+        { "ordinal": 22, "word": "Christmas", "phonetic": "/ˈkrɪs.məs/" },
+        { "ordinal": 23, "word": "Karaoke", "phonetic": "/ˌkæ.riˈoʊ.ki/" },
+        { "ordinal": 24, "word": "Island", "phonetic": "/ˈaɪ.lənd/" }
+      ]
+    }
+  ],
+  "advanced": {
+    "titleEn": "Advanced Pronunciation",
+    "titleVi": "Ôn tập so sánh nguyên âm & phụ âm; lưu ý khi ghép âm; mục tiêu phát âm nâng cao",
+    "note": "Supplementary section after Lesson 16. Content is preserved below as the original book pages (image-based) — not split into study sessions.",
+    "pageRange": "65-72",
+    "images": [
+      { "src": "/lessons/page-66-1.png", "width": 1195, "height": 473, "alt": "Ôn tập so sánh nguyên âm và phụ âm (tr.66)" },
+      { "src": "/lessons/page-66-2.png", "width": 1753, "height": 846, "alt": "Bảng phụ âm & nguyên âm ôn tập (tr.66)" },
+      { "src": "/lessons/page-67-1.png", "width": 1200, "height": 354, "alt": "Một số lưu ý khi ghép âm (tr.67)" },
+      { "src": "/lessons/page-67-2.png", "width": 1114, "height": 419, "alt": "Một số lưu ý khi ghép âm (tr.67)" },
+      { "src": "/lessons/page-67-3.png", "width": 1115, "height": 363, "alt": "Một số lưu ý khi ghép âm (tr.67)" },
+      { "src": "/lessons/page-68-1.png", "width": 1112, "height": 321, "alt": "Mục tiêu của phát âm nâng cao (tr.68)" },
+      { "src": "/lessons/page-68-2.png", "width": 1111, "height": 244, "alt": "Mục tiêu của phát âm nâng cao (tr.68)" },
+      { "src": "/lessons/page-68-3.png", "width": 1068, "height": 425, "alt": "Mục tiêu của phát âm nâng cao (tr.68)" },
+      { "src": "/lessons/page-69-1.png", "width": 891, "height": 538, "alt": "Phát âm nâng cao (tr.69)" },
+      { "src": "/lessons/page-69-2.png", "width": 1211, "height": 522, "alt": "Phát âm nâng cao (tr.69)" },
+      { "src": "/lessons/page-70-1.png", "width": 1002, "height": 558, "alt": "Phát âm nâng cao (tr.70)" },
+      { "src": "/lessons/page-70-2.png", "width": 1019, "height": 510, "alt": "Phát âm nâng cao (tr.70)" },
+      { "src": "/lessons/page-71-1.png", "width": 791, "height": 550, "alt": "Phát âm nâng cao (tr.71)" },
+      { "src": "/lessons/page-71-2.png", "width": 1013, "height": 558, "alt": "Phát âm nâng cao (tr.71)" },
+      { "src": "/lessons/page-72-1.png", "width": 834, "height": 497, "alt": "Phát âm nâng cao (tr.72)" },
+      { "src": "/lessons/page-72-2.png", "width": 1011, "height": 403, "alt": "Phát âm nâng cao (tr.72)" }
+    ]
+  }
+}
