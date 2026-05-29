@@ -206,7 +206,7 @@ function buildRows(
     | { kind: "barrier"; y: number }; // heading / title / header
   const anchors: Anchor[] = [];
   // Track continuations awaiting attachment between two anchors.
-  let pendingContinuations: YLine[] = [];
+  const pendingContinuations: YLine[] = [];
 
   const flushPending = () => {
     // Attach each pending continuation to the closer of the previous-row and
