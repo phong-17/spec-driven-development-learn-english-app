@@ -7,6 +7,7 @@ import {
   type SessionOption,
 } from "@/features/vocabulary-500/components/SessionDropdown";
 import topicData from "@/data/vocabulary/1000-topic-words.json";
+import { PracticeButton } from "@/features/practice/components/PracticeButton";
 import type { TopicVocabEntry } from "@/types/topic-vocabulary";
 
 import { groupByCategory } from "../lib/group-by-category";
@@ -73,6 +74,7 @@ export function TopicSessionBrowser() {
         <span className="font-mono text-sm text-foreground/40">
           ({currentEntries.length} words)
         </span>
+        <PracticeButton source="1000" session={selectedSession} />
       </div>
 
       <TopicWordTable className="hidden lg:table" groups={categoryGroups} />
