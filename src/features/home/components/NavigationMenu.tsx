@@ -34,9 +34,9 @@ export function NavigationMenu({ links }: NavigationMenuProps) {
     >
       {/* ── Top bar (< lg) ── */}
       <div className="flex items-center justify-between px-4 py-3 lg:hidden">
-        <span className="font-mono text-xs text-accent">
+        <Link href={"/"} className="font-mono text-xs text-accent">
           {">"} ~/learn-english
-        </span>
+        </Link>
 
         <button
           onClick={() => setOpen((o) => !o)}
@@ -77,55 +77,57 @@ export function NavigationMenu({ links }: NavigationMenuProps) {
         )}
       </AnimatePresence>
 
-      {/* ── Sidebar header (lg+) ── */}
-      <div className="hidden w-full lg:block">
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.4 }}
-          className="font-mono text-xs text-accent"
-        >
-          {">"} ~/learn-english
-        </motion.p>
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.15, duration: 0.4 }}
-          className="mt-1 font-mono text-sm font-bold uppercase tracking-widest text-foreground"
-        >
-          LEARN ENGLISH
-        </motion.p>
-        <motion.div
-          initial={{ scaleX: 0 }}
-          animate={{ scaleX: 1 }}
-          transition={{ delay: 0.3, duration: 0.45 }}
-          style={{ originX: 0 }}
-          className="mt-3 border-t border-dashed border-foreground/30"
-        />
-      </div>
-
-      {/* ── Sidebar nav items (lg+) ── */}
-      <ul className="mt-2 hidden flex-col gap-2 lg:flex">
-        {links.map((link, i) => (
-          <motion.li
-            key={link.href}
-            custom={i}
-            initial="hidden"
-            animate="visible"
-            variants={itemVariants}
+      <div className="fixed top-[2%]">
+        {/* ── Sidebar header (lg+) ── */}
+        <Link href={"/"} className="hidden w-full lg:block">
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.4 }}
+            className="font-mono text-xs text-accent"
           >
-            <Link
-              href={link.href}
-              className="group flex items-start gap-1.5 font-mono text-sm text-foreground/60 transition-colors hover:text-accent"
+            {">"} ~/learn-english
+          </motion.p>
+          <motion.p
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 0.15, duration: 0.4 }}
+            className="mt-1 font-mono text-sm font-bold uppercase tracking-widest text-foreground"
+          >
+            LEARN ENGLISH
+          </motion.p>
+          <motion.div
+            initial={{ scaleX: 0 }}
+            animate={{ scaleX: 1 }}
+            transition={{ delay: 0.3, duration: 0.45 }}
+            style={{ originX: 0 }}
+            className="mt-3 border-t border-dashed border-foreground/30"
+          />
+        </Link>
+
+        {/* ── Sidebar nav items (lg+) ── */}
+        <ul className="mt-2 hidden flex-col gap-2 lg:flex">
+          {links.map((link, i) => (
+            <motion.li
+              key={link.href}
+              custom={i}
+              initial="hidden"
+              animate="visible"
+              variants={itemVariants}
             >
-              <span className="shrink-0 text-accent/70 transition-colors group-hover:text-accent">
-                ▸
-              </span>
-              <span>{link.label}</span>
-            </Link>
-          </motion.li>
-        ))}
-      </ul>
+              <Link
+                href={link.href}
+                className="group flex items-start gap-1.5 font-mono text-sm text-foreground/60 transition-colors hover:text-accent"
+              >
+                <span className="shrink-0 text-accent/70 transition-colors group-hover:text-accent">
+                  ▸
+                </span>
+                <span>{link.label}</span>
+              </Link>
+            </motion.li>
+          ))}
+        </ul>
+      </div>
     </nav>
   );
 }
