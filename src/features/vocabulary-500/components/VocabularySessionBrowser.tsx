@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 
 import vocabularyData from "@/data/vocabulary/500-common-words.json";
+import { PracticeButton } from "@/features/practice/components/PracticeButton";
 import type { VocabularyEntry } from "@/types/vocabulary";
 
 import { useExpandedRows } from "../hooks/useExpandedRows";
@@ -65,6 +66,7 @@ export function VocabularySessionBrowser() {
         <span className="font-mono text-sm text-foreground/40">
           ({currentEntries.length} words)
         </span>
+        <PracticeButton source="500" session={selectedSession} />
       </div>
 
       <WordTable

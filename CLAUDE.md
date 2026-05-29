@@ -107,6 +107,6 @@ After every `/speckit-*` command:
 <!-- SPECKIT START -->
 
 For additional context about the current feature under development, read the implementation plan at:
-`specs/006-ms-huong-lessons/plan.md`
+`specs/007-vocab-practice-quiz/plan.md`
 
 <!-- SPECKIT END -->
